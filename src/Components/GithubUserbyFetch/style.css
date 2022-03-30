@@ -1,0 +1,43 @@
+.main {
+  background-color: rgb(76, 175, 175);
+  padding: 50px;
+}
+
+.cardOuter {
+  background-color: rgb(245, 255, 255);
+  width: 400px;
+  height: 200px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.cardMain {
+  display: flex;
+  justify-content: "center";
+  align-items: center;
+}
+.cardImg {
+  padding-top: 30px;
+
+  width: 140px;
+  padding-left: 10px;
+}
+
+.cardFollower {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(224, 217, 236);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.cardBodyMain {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  line-height: 30px;
+}
+.mappingHere {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
